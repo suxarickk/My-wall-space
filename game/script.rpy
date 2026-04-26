@@ -1,5 +1,5 @@
-## My Wall-Space — главный скрипт, точка входа
-## Engine: Ren'Py 8.5
+## My Wall-Space — script.rpy
+## Замени ТОЛЬКО этот файл. gui.rpy, screens.rpy, options.rpy не трогай!
 
 label start:
     $ holy_lumins = 5
