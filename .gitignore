@@ -1,0 +1,32 @@
+# Ren'Py compiled files
+*.rpyc
+*.rpymc
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Saves
+/game/saves/
+/game/cache/
+
+# Logs
+log.txt
+errors.txt
+traceback.txt
+
+# Build output
+/game/android-*.txt
+*.apk
+*.aab
+*.exe
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
