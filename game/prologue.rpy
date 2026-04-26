@@ -104,6 +104,7 @@ screen room_exploration():
         idle  "hotspot_idle"
         hover "hotspot_hover"
         xpos 0.34 ypos 0.72
+        xsize 60 ysize 60
         action [SetVariable("explored_guitar", True), Call("inspect_guitar")]
         tooltip "Осмотреть: Электрогитара"
 
@@ -112,6 +113,7 @@ screen room_exploration():
         idle  "hotspot_idle"
         hover "hotspot_hover"
         xpos 0.18 ypos 0.44
+        xsize 60 ysize 60
         action [SetVariable("explored_mirror", True), Call("inspect_mirror")]
         tooltip "Осмотреть: Зеркало"
 
@@ -120,6 +122,7 @@ screen room_exploration():
         idle  "hotspot_idle"
         hover "hotspot_hover"
         xpos 0.64 ypos 0.14
+        xsize 60 ysize 60
         action [SetVariable("explored_posters", True), Call("inspect_posters")]
         tooltip "Осмотреть: Постеры"
 
@@ -128,6 +131,7 @@ screen room_exploration():
         idle  "hotspot_idle"
         hover "hotspot_hover"
         xpos 0.84 ypos 0.68
+        xsize 60 ysize 60
         action [SetVariable("explored_cat", True), Call("inspect_cat")]
         tooltip "Осмотреть: Кот"
 
@@ -136,6 +140,7 @@ screen room_exploration():
         idle  "hotspot_idle"
         hover "hotspot_hover"
         xpos 0.41 ypos 0.11
+        xsize 60 ysize 60
         action [SetVariable("explored_clock", True), Call("inspect_clock")]
         tooltip "Осмотреть: Часы"
 
@@ -238,7 +243,7 @@ label prologue_lifarsiy:
 
     pause 1.0
 
-    play sfx "audio/sfx/lifarsiy_arrive.ogg"
+    play sound "audio/sfx/lifarsiy_arrive.ogg"
 
     narrator "Комната становится холоднее на несколько градусов."
 
