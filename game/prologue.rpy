@@ -97,7 +97,7 @@ screen room_exploration():
         background "#00000055"
         xalign 0.5 ypos 10
         padding (20, 6)
-        text "[Осмотри комнату]" color "#9988bb" size 17
+        text "[[Осмотри комнату]]" color "#9988bb" size 17
 
     ## ── ГИТАРА (центр-лево, у тумбочки) ─────────────────────
     imagebutton:
@@ -170,7 +170,7 @@ screen room_exploration():
 
 label inspect_guitar:
     hide screen room_exploration
-    narrator "[Осмотреть: Электрогитара]"
+    narrator "[[Осмотреть: Электрогитара]]"
     narrator "Белая. Стоит у тумбочки — не на подставке, просто прислонена к стене."
     narrator "Гриф чуть потёртый. Там, где пальцы касаются чаще всего."
     r "Мы с ДжЕрмином учились брать аккорды одновременно. Он за две недели обогнал меня на месяц."
@@ -180,7 +180,7 @@ label inspect_guitar:
 
 label inspect_mirror:
     hide screen room_exploration
-    narrator "[Осмотреть: Зеркало]"
+    narrator "[[Осмотреть: Зеркало]]"
     narrator "Он стоит напротив. Бледное лицо. Тёмные круги под глазами."
     narrator "Долго изучает своё отражение — как будто видит его впервые."
     r "(думает) ТЭлвон."
@@ -192,7 +192,7 @@ label inspect_mirror:
 
 label inspect_posters:
     hide screen room_exploration
-    narrator "[Осмотреть: Постеры]"
+    narrator "[[Осмотреть: Постеры]]"
     narrator "Scary Birches. sMall is Prison. Несколько без подписей — просто силуэты."
     narrator "И в самом углу, почти незаметный — нарисованный от руки."
     narrator "Большая белая фигура с крыльями."
@@ -202,7 +202,7 @@ label inspect_posters:
 
 label inspect_cat:
     hide screen room_exploration
-    narrator "[Осмотреть: Чёрный кот]"
+    narrator "[[Осмотреть: Чёрный кот]]"
     narrator "Кот смотрит на него. Не моргает."
     narrator "Слишком долго. Слишком внимательно."
     r "Ты что-то видишь?"
@@ -214,7 +214,7 @@ label inspect_cat:
 
 label inspect_clock:
     hide screen room_exploration
-    narrator "[Осмотреть: Часы на стене]"
+    narrator "[[Осмотреть: Часы на стене]]"
     narrator "3:21. Стрелки движутся — медленно, как будто нехотя."
     r "(думает) До рассвета три часа."
     narrator "Три часа тишины. Три часа, пока ночь не отпустит."
